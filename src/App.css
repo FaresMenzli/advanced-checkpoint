@@ -28,6 +28,19 @@
   color: #61dafb;
 }
 
+td {
+
+  text-align: center;
+  background-color: rgb(202, 199, 199);
+}
+th {
+  background-color: #61dafb;
+}
+table{
+  padding-top: 50px;
+  margin:auto;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

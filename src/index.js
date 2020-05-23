@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ProductTable  from './ProductTable';
+
+
 import * as serviceWorker from './serviceWorker';
+
+
+let object1 = {category:"Electronics", price:"80 €", name:"capteur de mouvement"}
+let object2 = {category:"clothes", price:"70 €", name:"chaussures"}
+
+
+
+let products=[object1,object2] ;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProductTable tableau={products}></ProductTable>
   </React.StrictMode>,
   document.getElementById('root')
 );
